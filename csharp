@@ -1,0 +1,14 @@
+bank-dashboard/
+│
+├─ app.js             # Node.js სერვერი
+├─ Dockerfile         # Docker build script
+├─ package.json       # Node dependencies
+├─ README.md          # პროექტის აღწერა
+│
+├─ public/            # Frontend ფაილები
+│   ├─ index.html     # მთავარი გვერდი
+│   ├─ style.css      # დიზაინი
+│   └─ script.js      # მცირე JS ფუნქციონალი
+│
+└─ routes/            # Node.js routes
+    └─ main.js
