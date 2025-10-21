@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6600; /* საქართველოს ბანკის ფორთოხლისფერი */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(180deg, #fff7f0, #ffffff);
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0 30px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 30px;
+  max-width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h2 {
+  color: #ff6600;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 25px;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+}
